@@ -12,7 +12,7 @@ permissions:
 
 jobs:
   publish-package:
-    uses: tavily-ai/github-actions/.github/workflows/pypi-codeartifact-deploy.yml@feat/add-pypi
+    uses: tavily-ai/github-actions/.github/workflows/pypi-codeartifact-deploy.yml@main
     with:
       python_version: '3.11'
       package_directory: '.'
